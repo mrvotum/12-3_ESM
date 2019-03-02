@@ -1,0 +1,28 @@
+{
+  "name": "12-3_esm",
+  "version": "1.0.0",
+  "description": "12_lesson 3_task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "live-server src",
+    "doc": "jsdoc -c jsdoc.conf.json",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrvotum/"
+  },
+  "keywords": [
+    "Netology"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jsdoc": "^3.5.5",
+    "live-server": "^1.2.1"
+  }
+}
